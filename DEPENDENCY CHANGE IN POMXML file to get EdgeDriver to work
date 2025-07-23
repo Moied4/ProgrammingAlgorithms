@@ -1,0 +1,28 @@
+<dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.7.0</version>
+            <scope>test</scope>
+        </dependency>
+
+<!--    For Selenium with Java:-->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.34.0</version> <!-- Use the latest stable version -->
+        </dependency>
+
+<!--        Below is needed to get rid of warnings due to browser incompatibility issues-->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-devtools-v138</artifactId>
+            <version>4.34.0</version>
+        </dependency>
+
+    <!--JUnit for assertions-->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+        </dependency>
+    </dependencies>
